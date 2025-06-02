@@ -21,7 +21,7 @@ const sidebarItems = [
   { title: "Customers", href: "/customers", icon: Users },
   { title: "Reports", href: "/reports", icon: BarChart3 },
   { title: "Receipts", href: "/receipts", icon: FileText },
-  { title: "Settings", href: "/settings", icon: Settings },
+  // { title: "Settings", href: "/settings", icon: Settings },
 ];
 
 export default function Sidebar() {
