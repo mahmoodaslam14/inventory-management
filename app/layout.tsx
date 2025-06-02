@@ -30,9 +30,9 @@ export default function RootLayout({
           <Header />
 
           {/* Main Layout with sidebar */}
-          <div className="flex pt-[64px] pl-60 min-h-screen">
+          <div className="flex pl-60">
             <Sidebar />
-            <main className="flex-1 p-4">{children}</main>
+            <main className="flex-1">{children}</main>
           </div>
         </ThemeProvider>
       </body>
