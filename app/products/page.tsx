@@ -27,7 +27,7 @@ export default function ProductsPage() {
     localStorage.setItem("editProduct", JSON.stringify(product));
     router.push(`/products/${product.id}/edit-product`);
   };
-  debugger;
+  
   const handleViewClick = (product: any) => {
     localStorage.setItem("viewProduct", JSON.stringify(product));
     router.push(`/products/${product.id}/view-product`);
